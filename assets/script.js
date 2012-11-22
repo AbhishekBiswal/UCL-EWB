@@ -24,4 +24,14 @@ $(document).ready(function(){
 
 	})
 
+	$(".load-page").click(function(e){
+
+		e.preventDefault();
+		var page = $(this).attr("id");
+		$(".main").css("opacity","0.5");
+		$(".main").load('pages/'+page+'.html');
+		$(".main").css("opacity","1");
+
+	})
+
 })
