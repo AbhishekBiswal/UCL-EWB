@@ -65,7 +65,7 @@ ul { list-style-type: none; }
 .masthead
 {
   background-color: #333;
-  min-height: 400px;
+  min-height: 312px;
   background: #999 url('img/bg/1.jpg') no-repeat;
   background-position: 50%;
   box-shadow: inset 0px 0px 10px rgba(0,0,0,0.4);
@@ -182,4 +182,27 @@ h1.page-title
 .join-us:hover
 {
   background: #f90;
+}
+
+.botnav ul { list-style-type: none; background: #111 }
+.botnav li { display: inline-block; }
+.botnav a
+{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+.disp-inline
+{
+  display: none !important;
+}
+
+blockquote
+{
+  padding: 10px;
+  color: #111 !important;
+  text-align: justify;
+  font-size: 100%;
+  font-weight: bold;
 }
