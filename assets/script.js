@@ -27,10 +27,10 @@ $(document).ready(function(){
 	$(".load-page").click(function(e){
 
 		e.preventDefault();
+		$(".main").css("opacity","0.4");
 		var page = $(this).attr("id");
 		$(".active").removeClass("active");
 		$(this).addClass("active");
-		$(".main").css("opacity","0.5");
 		$(".main").load('pages/'+page+'.html');
 		$(".main").css("opacity","1");
 

@@ -1,0 +1,20 @@
+<script src="assets/vmap.js"></script>
+<script src="assets/world.js"></script>
+<script src="assets/sampledata.js"></script>
+ 
+<script>
+jQuery('#vmap').vectorMap({
+    map: 'world_en',
+    backgroundColor: null,
+    color: '#ffffff',
+    hoverOpacity: 0.7,
+    selectedColor: '#666666',
+    enableZoom: true,
+    showTooltip: true,
+    values: sample_data,
+    scaleColors: ['#f90', '#f60'],
+    normalizeFunction: 'polynomial'
+});
+</script>
+ 
+<center><div id="vmap" style="width: 800px; height: 400px;"></div></center>

@@ -115,6 +115,8 @@ ul { list-style-type: none; }
   text-align: center;
   color: #999;
   margin: 10px 0;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
 }
 
 input, textarea
@@ -184,7 +186,7 @@ h1.page-title
   background: #f90;
 }
 
-.botnav ul { list-style-type: none; background: #111 }
+.botnav ul { list-style-type: none; background: #111; text-align: center; }
 .botnav li { display: inline-block; }
 .botnav a
 {
@@ -205,4 +207,36 @@ blockquote
   text-align: justify;
   font-size: 100%;
   font-weight: bold;
+}
+.mem
+{
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.mem-left { width: 15%; float: left; }
+.mem-right { width: 65%; float: left; }
+.mem h3 {  }
+.mem span { color: #888; font-size: 110%; }
+
+.list { list-style-type: circle; padding-left: 40px; line-height: 1.4; }
+
+.mem img
+{
+  width: 100px;
+  height: 120px;
+}
+
+.mem:after
+{
+  clear: both;
+}
+
+.contact-p { text-align: center; display: block; min-height: 300px; }
+.contact-p h2 { font-size: 500%; color: #f60; }
+.contact-p a { font-size: 200%; text-decoration: none; }
+
+.footer a
+{
+  text-decoration: none;
+  color: #444;
 }
